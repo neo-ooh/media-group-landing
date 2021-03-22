@@ -32,8 +32,10 @@ header .header-jumbo-logo {
   -webkit-mask-repeat: no-repeat;
 }
 header .header-caption {
+  box-sizing: border-box;
+  width: 100%;
   margin: auto;
-  width: 35%;
+  padding: 0 40px;
   text-align: center;
   font-weight: 400;
   letter-spacing: 0.05ch;
@@ -69,10 +71,9 @@ main .brand-wrapper .brand-logo-link {
   margin: 0 auto;
   width: 325px;
   height: 240px;
-  border: 1px solid var(--color-foreground);
 }
 main .brand-wrapper .brand-logo-link .brand-logo {
-  margin: 10%;
+  margin: 7.5% 10%;
   width: 80%;
   height: 80%;
   background-color: var(--color-foreground);
@@ -103,6 +104,10 @@ main .brand-wrapper .brand-description {
   border: 1px solid var(--color-foreground);
   background-color: var(--color-background);
 }
+main .brand-wrapper .brand-description a {
+  color: var(--color-foreground);
+  text-decoration-color: var(--color-foreground) !important;
+}
 main .brand-wrapper .brand-description h2 {
   margin: 0;
 }
@@ -113,7 +118,8 @@ main .brand-wrapper .brand-description p {
   letter-spacing: 0.05ch;
 }
 main .brand-wrapper .brand-logo-link:hover ~ .brand-description,
-main .brand-wrapper .brand-date:hover ~ .brand-description {
+main .brand-wrapper .brand-date:hover ~ .brand-description,
+main .brand-wrapper .brand-description:hover {
   display: block;
 }
 main .neo {
@@ -159,6 +165,107 @@ main .staff .brand-logo {
 }
 main .staff .brand-description {
   right: calc(50% + 200px);
+}
+
+@media (max-width: 1280px) {
+  header .header-caption {
+    font-size: 0.889rem;
+  }
+
+  main .division-title {
+    font-size: 1.25rem;
+  }
+  main .neo .brand-description {
+    left: 20%;
+    top: 60%;
+  }
+  main .pompe .brand-description {
+    left: 20%;
+    top: -40%;
+  }
+  main .speed .brand-description {
+    right: 20%;
+    top: 60%;
+  }
+  main .staff .brand-description {
+    right: 20%;
+    top: -40%;
+  }
+}
+@media (max-width: 1024px) {
+  main {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+  }
+  main .division-title.left {
+    grid-column: 1;
+    grid-row: 1;
+  }
+  main .division-title.right {
+    grid-column: 1;
+    grid-row: 4;
+  }
+  main .brand-wrapper {
+    grid-column: 1;
+  }
+  main .brand-wrapper.neo {
+    grid-row: 2;
+  }
+  main .brand-wrapper.pompe {
+    grid-row: 3;
+  }
+  main .brand-wrapper.speed {
+    grid-row: 5;
+  }
+  main .brand-wrapper.staff {
+    grid-row: 6;
+  }
+  main .neo .brand-description {
+    width: 80%;
+    left: 0;
+    top: 60%;
+  }
+  main .pompe .brand-description {
+    width: 80%;
+    left: 0;
+    top: 60%;
+  }
+  main .speed .brand-description {
+    width: 80%;
+    left: 0;
+    top: -80%;
+    right: unset;
+  }
+  main .staff .brand-description {
+    width: 80%;
+    left: 0;
+    top: -80%;
+    right: unset;
+  }
+}
+@media (max-width: 768px) {
+  header .header-jumbo-logo {
+    width: 320px;
+    height: 80px;
+  }
+
+  main {
+    width: 100%;
+  }
+  main .brand-wrapper .brand-description {
+    position: relative;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    top: unset;
+    left: unset;
+    right: unset;
+    bottom: unset;
+    padding: 0 40px;
+    border: none;
+    box-shadow: none;
+    margin: -20px 0 40px 0;
+  }
 }
 
 /*# sourceMappingURL=root.css.map */
