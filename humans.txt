@@ -1,0 +1,18 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Valentin Dufois -- Lead Developer -- @valentindufois
+    Trent Martin -- Graphic Designer
+    Morgane Bousquet -- Redaction & Content
+
+# THANKS
+
+    Ronald Tapiero
+    Andrew Wise
+
+# TECHNOLOGY COLOPHON
+
+    CSS3, HTML5
+    Modernizr, Normalize.css

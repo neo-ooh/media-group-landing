@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+html {
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+}
+
+header {
+  width: 100vw;
+}
+header .header-jumbo-logo {
+  width: 40%;
+  padding-top: 10%;
+  margin: 0 auto 70px;
+  background-image: url("../img/mediagroup.mono.svg");
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 4fr;
+  width: 80vw;
+  margin: 40px auto 20px;
+}
+main .division-title {
+  grid-row: 1;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1.563rem;
+  font-weight: 500;
+}
+main .division-title.left {
+  grid-column: 1/span 2;
+}
+main .division-title.right {
+  grid-column: 3/span 2;
+}
+main .brand-wrapper {
+  position: relative;
+  grid-row: 2;
+}
+main .brand-wrapper .brand-logo {
+  width: 325px;
+  height: 240px;
+  margin: 0 auto;
+  border: 1px solid grey;
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+main .brand-wrapper .brand-logo.speed {
+  background-image: url("../img/speed.mono.fr.svg");
+}
+main .brand-wrapper .brand-logo.staff {
+  background-image: url("../img/staff.mono.fr.svg");
+}
+main .brand-wrapper .brand-date {
+  padding-top: 20px;
+  text-align: center;
+  font-size: 1.563rem;
+  font-weight: 500;
+}
+main .brand-wrapper .brand-description {
+  position: absolute;
+  top: 15px;
+  z-index: 100;
+  display: none;
+  width: 600px;
+  padding: 40px 80px;
+  box-shadow: 2px 2px 10px 0 rgba(0, 0, 0, 0.5);
+  border: 1px solid grey;
+  background-color: #FFFFFF;
+}
+main .brand-wrapper .brand-description h2 {
+  margin: 0;
+}
+main .brand-wrapper .brand-description p {
+  margin: 0;
+  font-size: 0.889rem;
+  line-height: 1.8rem;
+  letter-spacing: 0.05ch;
+}
+main .brand-wrapper .brand-logo:hover ~ .brand-description,
+main .brand-wrapper .brand-date:hover ~ .brand-description {
+  display: block;
+}
+main .neo .brand-logo {
+  background-image: url("../img/neo.mono.fr.svg");
+}
+main .neo .brand-description {
+  left: 95%;
+}
+main .pompe .brand-logo {
+  background-image: url("../img/pompe.mono.svg");
+}
+main .pompe .brand-description {
+  left: 90%;
+}
+main .speed .brand-logo {
+  background-image: url("../img/speed.mono.fr.svg");
+}
+main .speed .brand-description {
+  right: 90%;
+}
+main .staff .brand-logo {
+  background-image: url("../img/staff.mono.fr.svg");
+}
+main .staff .brand-description {
+  right: 95%;
+}
+
+/*# sourceMappingURL=root.css.map */
