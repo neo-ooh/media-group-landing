@@ -1,34 +1,49 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+:root {
+  --color-foreground: #FFFFFF;
+  --color-background: #000000;
+}
+
 html {
   font-family: "Poppins", sans-serif;
 }
 
 body {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  height: 100vh;
+  color: var(--color-foreground);
+  background-color: var(--color-background);
 }
 
 header {
   width: 100vw;
+  margin-bottom: 20px;
 }
 header .header-jumbo-logo {
   width: 40%;
   padding-top: 10%;
-  margin: 0 auto 70px;
-  background-image: url("../img/mediagroup.mono.svg");
-  background-position: center center;
-  background-size: contain;
-  background-repeat: no-repeat;
+  margin: 0 auto 10px;
+  background-color: var(--color-foreground);
+  mask-image: url("../img/mediagroup.mono.fr.svg");
+  mask-position: center center;
+  mask-size: contain;
+  mask-repeat: no-repeat;
+  -webkit-mask-image: url("../img/mediagroup.mono.fr.svg");
+  -webkit-mask-position: center center;
+  -webkit-mask-size: contain;
+  -webkit-mask-repeat: no-repeat;
+}
+header .header-caption {
+  margin: auto;
+  width: 35%;
+  text-align: center;
+  font-weight: 500;
 }
 
 main {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 4fr;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 4fr 4fr;
   width: 80vw;
-  margin: 40px auto 20px;
+  margin: 40px auto 0;
 }
 main .division-title {
   grid-row: 1;
@@ -38,35 +53,43 @@ main .division-title {
   font-weight: 500;
 }
 main .division-title.left {
-  grid-column: 1/span 2;
+  grid-column: 1;
+  grid-row: 1;
 }
 main .division-title.right {
-  grid-column: 3/span 2;
+  grid-column: 2;
+  grid-row: 1;
 }
 main .brand-wrapper {
   position: relative;
-  grid-row: 2;
 }
-main .brand-wrapper .brand-logo {
+main .brand-wrapper .brand-logo-link {
+  display: block;
+  margin: 0 auto;
   width: 325px;
   height: 240px;
-  margin: 0 auto;
-  border: 1px solid grey;
-  background-size: contain;
-  background-position: center center;
-  background-repeat: no-repeat;
+  border: 1px solid var(--color-foreground);
 }
-main .brand-wrapper .brand-logo.speed {
-  background-image: url("../img/speed.mono.fr.svg");
-}
-main .brand-wrapper .brand-logo.staff {
-  background-image: url("../img/staff.mono.fr.svg");
+main .brand-wrapper .brand-logo-link .brand-logo {
+  margin: 10%;
+  width: 80%;
+  height: 80%;
+  background-color: var(--color-foreground);
+  mask-size: contain;
+  mask-position: center center;
+  mask-repeat: no-repeat;
+  -webkit-mask-size: contain;
+  -webkit-mask-position: center center;
+  -webkit-mask-repeat: no-repeat;
 }
 main .brand-wrapper .brand-date {
+  margin-bottom: 40px;
+  color: var(--color-foreground);
   padding-top: 20px;
   text-align: center;
   font-size: 1.563rem;
   font-weight: 500;
+  text-decoration: none;
 }
 main .brand-wrapper .brand-description {
   position: absolute;
@@ -75,9 +98,9 @@ main .brand-wrapper .brand-description {
   display: none;
   width: 600px;
   padding: 40px 80px;
-  box-shadow: 2px 2px 10px 0 rgba(0, 0, 0, 0.5);
-  border: 1px solid grey;
-  background-color: #FFFFFF;
+  box-shadow: 0 2px 10px 0 var(--color-foreground);
+  border: 1px solid var(--color-foreground);
+  background-color: var(--color-background);
 }
 main .brand-wrapper .brand-description h2 {
   margin: 0;
@@ -88,33 +111,53 @@ main .brand-wrapper .brand-description p {
   line-height: 1.8rem;
   letter-spacing: 0.05ch;
 }
-main .brand-wrapper .brand-logo:hover ~ .brand-description,
+main .brand-wrapper .brand-logo-link:hover ~ .brand-description,
 main .brand-wrapper .brand-date:hover ~ .brand-description {
   display: block;
 }
+main .neo {
+  grid-row: 2;
+  grid-column: 1;
+}
 main .neo .brand-logo {
-  background-image: url("../img/neo.mono.fr.svg");
+  mask-image: url("../img/neo.mono.fr.svg");
+  -webkit-mask-image: url("../img/neo.mono.fr.svg");
 }
 main .neo .brand-description {
-  left: 95%;
+  left: calc(50% + 200px);
+}
+main .pompe {
+  grid-row: 3;
+  grid-column: 1;
 }
 main .pompe .brand-logo {
-  background-image: url("../img/pompe.mono.svg");
+  mask-image: url("../img/pompe.mono.svg");
+  -webkit-mask-image: url("../img/pompe.mono.svg");
 }
 main .pompe .brand-description {
-  left: 90%;
+  left: calc(50% + 200px);
+}
+main .speed {
+  grid-row: 2;
+  grid-column: 2;
 }
 main .speed .brand-logo {
-  background-image: url("../img/speed.mono.fr.svg");
+  mask-image: url("../img/speed.mono.fr.svg");
+  -webkit-mask-image: url("../img/speed.mono.fr.svg");
 }
 main .speed .brand-description {
-  right: 90%;
+  right: calc(50% + 200px);
+}
+main .staff {
+  grid-row: 3;
+  grid-column: 2;
 }
 main .staff .brand-logo {
-  background-image: url("../img/staff.mono.fr.svg");
+  mask-image: url("../img/staff.mono.fr.svg");
+  -webkit-mask-image: url("../img/staff.mono.fr.svg");
 }
 main .staff .brand-description {
-  right: 95%;
+  right: calc(50% + 200px);
 }
 
 /*# sourceMappingURL=root.css.map */
