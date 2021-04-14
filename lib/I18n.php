@@ -2,16 +2,19 @@
 
 class I18n {
     protected array $sets;
+    protected string $locale;
 
-    public function __construct(public string $locale) {
+
+    public function __construct(string $locale) {
+        $this->locale = $locale;
         $this->sets = [
-            require "../locales/en.php",
-            require "../locales/fr.php",
+            "en" => include "./locales/en.php",
+            "fr" => include "./locales/fr.php",
         ];
     }
 
     public function __invoke ( ...$values ) : string {
-        if(count($values) > 1 || count(values) === 0) {
+        if(count($values) > 1 || count($values) === 0) {
             return "Invalid arguments passed to i18n";
         }
 
