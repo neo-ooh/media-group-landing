@@ -16,7 +16,9 @@ body {
 
 
 header {
+  position      : relative;
   width         : 100vw;
+  margin-bottom : 20px;
 
   .header-jumbo-logo {
     width                 : 40%;
@@ -47,7 +49,16 @@ header {
     letter-spacing : .05ch;
   }
 
-  margin-bottom : 20px;
+  .language-switcher {
+    position        : absolute;
+    top             : 10%;
+    right           : 20%;
+
+    color           : #FFFFFF;
+    text-decoration : none;
+    font-weight     : 600;
+    font-size       : .889rem;
+  }
 }
 
 main {
@@ -56,7 +67,7 @@ main {
   grid-template-rows    : 1fr 3fr 3fr;
 
   width                 : 80vw;
-  max-width : 1280px;
+  max-width             : 1280px;
   margin                : 40px auto 0;
 
   .division-title {
@@ -226,7 +237,7 @@ main {
 
 @media(max-width : 1280px) {
   header .header-caption {
-    font-size: .889rem;
+    font-size : .889rem;
   }
 
   main {
@@ -265,6 +276,13 @@ main {
 }
 
 @media(max-width : 1024px) {
+  header {
+    .language-switcher {
+      top      : 20px;
+      right    : 20px;
+    }
+  }
+
   main {
     grid-template-columns : 1fr;
     grid-template-rows    : auto;

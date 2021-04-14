@@ -68,6 +68,10 @@ $fmt = new I18n($locale);
     <div class="header-caption">
         <?php echo $fmt("media-group.desc"); ?>
     </div>
+    <a href="/?lang=<?php echo $locale === "en" ? "fr" : "en"; ?>"
+       class="language-switcher">
+        <?php echo $locale === "en" ? "FR" : "EN"; ?>
+    </a>
 </header>
 <main>
     <h1 class="division-title left"><?php echo $fmt("sections.ooh"); ?></h1>
