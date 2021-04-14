@@ -25,11 +25,11 @@ header {
     margin                : 0 auto 10px;
 
     background-color      : var(--color-foreground);
-    mask-image            : url("../img/mediagroup.mono.fr.svg");
+    mask-image            : url("../img/mediagroup.mono.en.svg");
     mask-position         : center center;
     mask-size             : contain;
     mask-repeat           : no-repeat;
-    -webkit-mask-image    : url("../img/mediagroup.mono.fr.svg");
+    -webkit-mask-image    : url("../img/mediagroup.mono.en.svg");
     -webkit-mask-position : center center;
     -webkit-mask-size     : contain;
     -webkit-mask-repeat   : no-repeat;
@@ -157,8 +157,8 @@ main {
     grid-column : 1;
 
     .brand-logo {
-      mask-image         : url("../img/neo.mono.fr.svg");
-      -webkit-mask-image : url("../img/neo.mono.fr.svg");
+      mask-image         : url("../img/neo.mono.en.svg");
+      -webkit-mask-image : url("../img/neo.mono.en.svg");
     }
 
     .brand-description {
@@ -185,8 +185,8 @@ main {
     grid-column : 2;
 
     .brand-logo {
-      mask-image         : url("../img/speed.mono.fr.svg");
-      -webkit-mask-image : url("../img/speed.mono.fr.svg");
+      mask-image         : url("../img/speed.mono.en.svg");
+      -webkit-mask-image : url("../img/speed.mono.en.svg");
     }
 
     .brand-description {
@@ -199,8 +199,8 @@ main {
     grid-column : 2;
 
     .brand-logo {
-      mask-image         : url("../img/staff.mono.fr.svg");
-      -webkit-mask-image : url("../img/staff.mono.fr.svg");
+      mask-image         : url("../img/staff.mono.en.svg");
+      -webkit-mask-image : url("../img/staff.mono.en.svg");
     }
 
     .brand-description {
