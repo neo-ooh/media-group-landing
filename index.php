@@ -64,7 +64,10 @@ $fmt = new I18n($locale);
 
 <!-- Add your site or application content here -->
 <header>
-    <div class="header-jumbo-logo" title="<?php echo $fmt("media-group.title"); ?>"></div>
+    <div class="header-jumbo-logo"
+         title="<?php echo $fmt("media-group.title"); ?>"
+         style="--logo-url:url('<?php echo $locale === "en" ? "../img/mediagroup.mono.en.svg" : "../img/mediagroup.mono.fr.png" ; ?>')"
+    ></div>
     <div class="header-caption">
         <?php echo $fmt("media-group.desc"); ?>
     </div>
