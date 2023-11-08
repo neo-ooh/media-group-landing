@@ -246,8 +246,6 @@ main .moblek .brand-description {
 }
 
 .brand-pr-item > a {
-  width: 200px;
-  overflow: hidden;
   white-space: nowrap;
   display: block;
 }
