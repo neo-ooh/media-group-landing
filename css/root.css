@@ -18,6 +18,12 @@ a {
   color: inherit;
 }
 
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
 header {
   position: relative;
   width: 100vw;
@@ -223,6 +229,14 @@ main .moblek .brand-logo.fr {
 }
 main .moblek .brand-description {
   right: calc(50% + 200px);
+}
+
+.brand-pr-list {
+  text-align: center;
+}
+
+.brand-pr-item {
+  line-height: 1.5;
 }
 
 @media (max-width: 1280px) {
