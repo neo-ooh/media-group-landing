@@ -81,14 +81,12 @@ $fmt = new I18n($locale);
         <ul class="brand-pr-list">
             <li class="brand-pr-item">
                 <a href="<?php echo $locale === "en" ? "../pdf/Press_release_Sophie_Remillard EN.pdf" : "../pdf/Communique_Sophie_Remillard_FR.pdf"; ?>" download>
-                    <?php echo $locale === "en" ? "SOPHIE RÉMILLARD JOINS NEO..." : 
-                    "SOPHIE RÉMILLARD SE JOINT À NEO..."; ?>
+                    <?php echo $locale === "en" ? "SOPHIE RÉMILLARD JOINS NEO..." : "SOPHIE RÉMILLARD SE JOINT À NEO..."; ?>
                 </a>
             </li>
             <li class="brand-pr-item">
                 <a href="<?php echo $locale === "en" ? "../pdf/Palais_des_congres_de_Mtl_EN.pdf" : "../pdf/Palais_des_congres_de_Mtl_FR.pdf"; ?>" download>
-                    <?php echo $locale === "en" ? "NEO signs with the Palais des congrès de Montréal..." : 
-                    "NEO signe avec le Palais des congrès de Montréal..."; ?>
+                    <?php echo $locale === "en" ? "NEO signs with the Palais des congrès de Montréal..." : "NEO signe avec le Palais des congrès de Montréal..."; ?>
                 </a>
             </li>
         </ul>
