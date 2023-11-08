@@ -74,6 +74,10 @@ header .language-switcher {
   color: #a4d4ff;
 }
 
+.header-press-release:hover {
+  color: white;
+}
+
 main {
   display: grid;
   grid-template-columns: repeat(3, minmax(250px, 1fr));
@@ -255,10 +259,11 @@ main .moblek .brand-description {
   white-space: nowrap;
   display: block;
   text-transform: uppercase;
+  color: #a4d4ff;
 }
 
 .brand-pr-item > a:hover {
-  color: #a4d4ff;
+  color: white;
 }
 
 .press-releases-main .brand-wrapper.pompe,
