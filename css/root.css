@@ -132,7 +132,7 @@ main .brand-wrapper .brand-date {
 }
 main .brand-wrapper .brand-description {
   position: absolute;
-  top: 15px;
+  top: -50px;
   z-index: 100;
   display: none;
   width: 600px;
@@ -141,12 +141,6 @@ main .brand-wrapper .brand-description {
   border: 1px solid var(--color-foreground);
   background-color: var(--color-background);
 }
-
-main .brand-wrapper .brand-description.pompe,
-main .brand-wrapper .brand-description.staff {
-  top: -50px;
-}
-
 
 main .brand-wrapper .brand-description a {
   color: var(--color-foreground);
