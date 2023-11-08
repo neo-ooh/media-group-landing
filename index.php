@@ -115,7 +115,7 @@ $fmt = new I18n($locale);
 <!--        <div class="brand-date">2004</div>-->
         <div class="brand-description">
             <a href="<?php echo $fmt("speed.url"); ?>" target="_blank" rel="noreferrer">
-                <h2>speed-xm.com</h2>
+                <h2>speed-xm.comz</h2>
             </a>
             <p>
                 <?php echo $fmt("speed.desc"); ?>
