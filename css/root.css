@@ -8,6 +8,10 @@ html {
   font-family: "Poppins", sans-serif;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   color: var(--color-foreground);
   background-color: var(--color-background);
@@ -236,7 +240,16 @@ main .moblek .brand-description {
 }
 
 .brand-pr-item {
+  display: flex;
+  justify-content: center;
   line-height: 1.5;
+}
+
+.brand-pr-item {
+  width: 200px;
+  overflow: hidden;
+  white-space: nowrap;
+  display: block;
 }
 
 .press-releases-main .brand-wrapper.pompe,
