@@ -64,7 +64,13 @@ $fmt = new I18n($locale);
 
 <!-- Add your site or application content here -->
 <header>
-    <div class="header-press-release"><a href=""><?php echo $fmt("media-group.pr"); ?></a></div>
+    <div class="header-caption">
+        <?php echo $fmt("press-releases.desc"); ?>
+    </div>
+    <a href="/?lang=<?php echo $locale === "en" ? "fr" : "en"; ?>"
+       class="language-switcher">
+        <?php echo $locale === "en" ? "FR" : "EN"; ?>
+    </a>
 </header>
 
 <script src="js/vendor/modernizr-3.11.2.min.js"></script>

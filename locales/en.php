@@ -29,5 +29,8 @@ return [
     "moblek" => [
         "url" => "https://moblek.com/?referrer=media-group-landing",
         "desc" => "Moblek is an innovative Canadian company that integrates smart wireless charging solutions with a unique branding and marketing concept."
+    ],
+    "press-releases" => [
+        "desc" => "PRESS RELEASES"
     ]
 ];

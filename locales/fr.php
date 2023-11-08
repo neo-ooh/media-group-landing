@@ -29,5 +29,8 @@ return [
     "moblek" => [
         "url" => "https://moblek.com/fr/?referrer=media-group-landing",
         "desc" => "Moblek est une entreprise canadienne novatrice qui développe des solutions de chargement sans fil intelligentesⒹ pour les appareils mobiles et qui offre une solution clé en main."
+    ],
+    "press-releases" => [
+        "desc" => "COMMUNIQUÉS"
     ]
 ];
