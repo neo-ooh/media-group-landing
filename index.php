@@ -97,7 +97,7 @@ $fmt = new I18n($locale);
             <div class="brand-logo <?php echo $locale ?>"></div>
         </a>
 <!--        <div class="brand-date">2019</div>-->
-        <div class="brand-description">
+        <div class="brand-description pompe">
             <a href="<?php echo $fmt("pompe.url"); ?>" target="_blank" rel="noreferrer">
                 <h2>pompemedia.ca</h2>
             </a>
@@ -126,7 +126,7 @@ $fmt = new I18n($locale);
             <div class="brand-logo <?php echo $locale ?>"></div>
         </a>
 <!--        <div class="brand-date">2019</div>-->
-        <div class="brand-description">
+        <div class="brand-description staff">
             <a href="<?php echo $fmt("staff.url"); ?>" target="_blank" rel="noreferrer">
                 <h2>staffpersonnel.com</h2>
             </a>
