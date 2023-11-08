@@ -103,7 +103,7 @@ $fmt = new I18n($locale);
         <ul class="brand-pr-list">
             <li class="brand-pr-item">
                 <a href="<?php echo $locale === "en" ? "../pdf/Adapt Media English.pdf" : "../pdf/Adapt Media French.pdf"; ?>" download>
-                    <?php echo $locale === "en" ? "(Mar. 2023) Adapt Media and NEO combine forces in an Exclusive Sales Partnership..." : "(Mar. 2023) NEO et Adapt Média unissent leurs forces avec un partenariat exclusif de ventes...."; ?>
+                    <?php echo $locale === "en" ? "(Mar. 2023) Adapt Media and NEO combine forces in a Partnership..." : "(Mar. 2023) NEO et Adapt Média unissent leurs forces avec un partenariat...."; ?>
                 </a>
             </li>
         </ul>
