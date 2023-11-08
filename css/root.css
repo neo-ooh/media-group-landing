@@ -279,10 +279,7 @@ main .moblek .brand-description {
 }
 
 @media (max-width: 1700px) {
-  main {
-    grid-template-columns: 1fr;
-    grid-template-rows: auto;
-  }
+
 }
 
 @media (max-width: 1280px) {
