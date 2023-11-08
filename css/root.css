@@ -236,7 +236,7 @@ main .moblek .brand-description {
 }
 
 .press-releases-main {
-  max-width: auto;
+  max-width: none;
   width: auto;
 }
 
