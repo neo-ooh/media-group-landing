@@ -25,5 +25,9 @@ return [
     "staff" => [
         "url" => "https://staffpersonnel.com/indexen?referrer=media-group-landing",
         "desc" => "Since 1997, Staff Personnel Event has been offering its clients a Canada-wide service in the placement of event and promotional personnel. For each of its clients' projects, Staff recruits and supervises highly qualified, proactive, and versatile personnel to meet the specific needs of each of its clients' events."
+    ],
+    "moblek" => [
+        "url" => "https://moblek.com/?referrer=media-group-landing",
+        "desc" => "Moblek is an innovative Canadian company that integrates smart wireless charging solutions with a unique branding and marketing concept."
     ]
 ];

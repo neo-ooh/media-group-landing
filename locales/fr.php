@@ -25,5 +25,9 @@ return [
     "staff" => [
         "url" => "https://staffpersonnel.com/?referrer=media-group-landing",
         "desc" => "Depuis 1997, Staff Personnel Événementiel offre à sa clientèle un service pancanadien dans le placement de personnel événementiel et de promotion. Pour chacun des projets de ses clients, Staff recrute et supervise un personnel hautement qualifié, proactif et polyvalent pour combler les besoins spécifiques propres à chacun des événements de ses clients."
+    ],
+    "moblek" => [
+        "url" => "https://moblek.com/fr/?referrer=media-group-landing",
+        "desc" => "Moblek est une entreprise canadienne novatrice qui développe des solutions de chargement sans fil intelligentesⒹ pour les appareils mobiles et qui offre une solution clé en main."
     ]
 ];
