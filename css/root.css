@@ -261,6 +261,7 @@ main .moblek .brand-description {
   text-transform: uppercase;
   color: #a4d4ff;
   z-index: 10;
+  font-size: 0.9rem;
 }
 
 .brand-pr-item > a:hover {
@@ -270,6 +271,11 @@ main .moblek .brand-description {
 .press-releases-main .brand-wrapper.pompe,
 .press-releases-main .brand-wrapper.staff {
   margin-top: 50px;
+}
+
+.press-releases-main .brand-wrapper.pompe .brand-pr-list,
+.press-releases-main .brand-wrapper.staff .brand-pr-list {
+  margin-top: 0;
 }
 
 @media (max-width: 1280px) {
