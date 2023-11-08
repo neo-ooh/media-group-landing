@@ -248,6 +248,7 @@ main .moblek .brand-description {
 .brand-pr-item > a {
   white-space: nowrap;
   display: block;
+  text-transform: capitalize;
 }
 
 .press-releases-main .brand-wrapper.pompe,
