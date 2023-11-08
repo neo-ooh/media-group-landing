@@ -278,6 +278,9 @@ main .moblek .brand-description {
   main .brand-wrapper.staff {
     grid-row: 6;
   }
+  main .brand-wrapper.moblek {
+    grid-row: 7;
+  }
   main .neo .brand-description {
     width: 80%;
     left: 0;
