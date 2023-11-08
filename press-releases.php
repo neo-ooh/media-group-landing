@@ -100,6 +100,13 @@ $fmt = new I18n($locale);
         <a href="<?php echo $fmt("pompe.url"); ?>" target="_blank" rel="noreferrer" class="brand-logo-link">
             <div class="brand-logo <?php echo $locale ?>"></div>
         </a>
+        <ul class="brand-pr-list">
+            <li class="brand-pr-item">
+                <a href="<?php echo $locale === "en" ? "../pdf/Adapt Media English.pdf" : "../pdf/Adapt Media French.pdf"; ?>" download>
+                    <?php echo $locale === "en" ? "(Mar. 2023) Adapt Media and NEO combine forces in an Exclusive Sales Partnership..." : "(Mar. 2023) NEO et Adapt Média unissent leurs forces avec un partenariat exclusif de ventes...."; ?>
+                </a>
+            </li>
+        </ul>
     </div>
     <div class="brand-wrapper speed">
         <a href="<?php echo $fmt("speed.url"); ?>" target="_blank" rel="noreferrer" class="brand-logo-link">
