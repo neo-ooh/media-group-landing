@@ -278,7 +278,7 @@ main .moblek .brand-description {
   margin-top: 0;
 }
 
-@media (max-width: 1500px) {
+@media (max-width: 1700px) {
   main {
     grid-template-columns: 1fr;
     grid-template-rows: auto;
