@@ -51,6 +51,12 @@ header .language-switcher {
   font-size: 0.889rem;
 }
 
+.header-press-release {
+  text-align: center;
+  padding: 30px 0 30px 0;
+  color: #a4d4ff;
+}
+
 main {
   display: grid;
   grid-template-columns: 1fr 1fr;
