@@ -245,7 +245,7 @@ main .moblek .brand-description {
   line-height: 1.5;
 }
 
-.brand-pr-item {
+.brand-pr-item > a {
   width: 200px;
   overflow: hidden;
   white-space: nowrap;
