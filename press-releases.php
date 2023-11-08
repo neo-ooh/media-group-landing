@@ -67,7 +67,7 @@ $fmt = new I18n($locale);
     <div class="header-caption">
         <?php echo $fmt("press-releases.desc"); ?>
     </div>
-    <a href="press-releases?lang=<?php echo $locale === "en" ? "fr" : "en"; ?>"
+    <a href="press-releases.php?lang=<?php echo $locale === "en" ? "fr" : "en"; ?>"
        class="language-switcher">
         <?php echo $locale === "en" ? "FR" : "EN"; ?>
     </a>
