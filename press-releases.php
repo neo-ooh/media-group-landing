@@ -87,8 +87,8 @@ $fmt = new I18n($locale);
             </li>
             <li class="brand-pr-item">
                 <a href="<?php echo $locale === "en" ? "../pdf/Palais_des_congres_de_Mtl_EN.pdf" : "../pdf/Palais_des_congres_de_Mtl_FR.pdf"; ?>" download>
-                    <?php echo $locale === "en" ? "NEO signs a contract with the Palais des congrès de Montréal..." : 
-                    "NEO signe un contrat avec le Palais des congrès de Montréal..."; ?>
+                    <?php echo $locale === "en" ? "NEO signs with the Palais des congrès de Montréal..." : 
+                    "NEO signe avec le Palais des congrès de Montréal..."; ?>
                 </a>
             </li>
         </ul>
