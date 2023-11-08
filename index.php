@@ -136,7 +136,7 @@ $fmt = new I18n($locale);
         </div>
     </div>
     <div class="brand-wrapper moblek">
-        <a href="<?php echo $fmt("staff.url"); ?>" target="_blank" rel="noreferrer" class="brand-logo-link">
+        <a href="<?php echo $fmt("moblek.url"); ?>" target="_blank" rel="noreferrer" class="brand-logo-link">
             <div class="brand-logo <?php echo $locale ?>"></div>
         </a>
 <!--        <div class="brand-date">2019</div>-->

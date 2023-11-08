@@ -206,15 +206,15 @@ main .moblek {
   grid-row: 2;
   grid-column: 3;
 }
-main .staff .brand-logo.en {
-  mask-image: url("../img/staff.mono.en.svg");
-  -webkit-mask-image: url("../img/staff.mono.en.svg");
+main .moblek .brand-logo.en {
+  mask-image: url("../img/Logo_Moblek_Blanc_anglais.png");
+  -webkit-mask-image: url("../img/Logo_Moblek_Blanc_anglais.png");
 }
-main .staff .brand-logo.fr {
-  mask-image: url("../img/staff.mono.fr.svg");
-  -webkit-mask-image: url("../img/staff.mono.fr.svg");
+main .moblek .brand-logo.fr {
+  mask-image: url("../img/Logo_Moblek_Blanc_fr.png");
+  -webkit-mask-image: url("../img/Logo_Moblek_Blanc_fr.png");
 }
-main .staff .brand-description {
+main .moblek .brand-description {
   right: calc(50% + 200px);
 }
 
