@@ -255,6 +255,9 @@ main .moblek .brand-description {
   white-space: nowrap;
   display: block;
   text-transform: uppercase;
+}
+
+.brand-pr-item > a:hover {
   color: #a4d4ff;
 }
 
