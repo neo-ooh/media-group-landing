@@ -143,12 +143,12 @@ main .neo {
   grid-column: 1;
 }
 main .neo .brand-logo.fr {
-  mask-image: url("../img/neo.mono.fr.svg");
-  -webkit-mask-image: url("../img/neo.mono.fr.svg");
+  mask-image: url("../img/Neo_Blanc.png");
+  -webkit-mask-image: url("../img/Neo_Blanc.png");
 }
 main .neo .brand-logo.en {
-  mask-image: url("../img/neo.mono.en.svg");
-  -webkit-mask-image: url("../img/neo.mono.en.svg");
+  mask-image: url("../img/Neo_Blanc.png");
+  -webkit-mask-image: url("../img/Neo_Blanc.png");
 }
 main .neo .brand-description {
   left: calc(50% + 200px);

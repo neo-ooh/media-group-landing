@@ -67,7 +67,7 @@ $fmt = new I18n($locale);
     <div class="header-press-release"><?php echo $fmt("media-group.pr"); ?></div>
     <div class="header-jumbo-logo"
          title="<?php echo $fmt("media-group.title"); ?>"
-         style="--logo-url:url('<?php echo $locale === "en" ? "../img/mediagroup.mono.en.svg" : "../img/mediagroup.mono.fr.png" ; ?>')"
+         style="--logo-url:url('<?php echo $locale === "en" ? "../img/mediagroup-renvers-vide-en.png" : "../img/mediagroupe-renvers-vide-fr.png" ; ?>')"
     ></div>
     <div class="header-caption">
         <?php echo $fmt("media-group.desc"); ?>
