@@ -78,7 +78,6 @@ $fmt = new I18n($locale);
     </a>
 </header>
 <main>
-    <h1 class="division-title left"><?php echo $fmt("sections.ooh"); ?></h1>
     <div class="brand-wrapper neo">
         <a href="<?php echo $fmt("neo.url"); ?>" target="_blank" rel="noreferrer" class="brand-logo-link">
             <div class="brand-logo <?php echo $locale ?>"></div>
@@ -108,7 +107,6 @@ $fmt = new I18n($locale);
             </p>
         </div>
     </div>
-    <h1 class="division-title right"><?php echo $fmt("sections.exm"); ?></h1>
     <div class="brand-wrapper speed">
         <a href="<?php echo $fmt("speed.url"); ?>" target="_blank" rel="noreferrer" class="brand-logo-link">
             <div class="brand-logo <?php echo $locale ?>"></div>

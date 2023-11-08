@@ -5,8 +5,7 @@ return [
     "media-group" => [
         "title" => "Média Groupe",
         "pr" => "Découvrez nos communiqués",
-        "desc" => "Média Groupe détient des intérêts dans différentes entreprises reliées au monde des communications.<br />
-        Notre groupe compte un effectif de ressources et d’expertises complémentaires qui nous ont permis de connaître une croissance rapide."],
+        "desc" => "NOS DIVISIONS"],
     "sections" => [
         "ooh" => "DIVISION AFFICHAGE PUBLICITAIRE",
         "exm" => "DIVISION MARKETING EXPÉRIENTIEL"
