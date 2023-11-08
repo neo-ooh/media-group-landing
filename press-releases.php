@@ -73,7 +73,7 @@ $fmt = new I18n($locale);
     </a>
 </header>
 
-<main>
+<main class="press-releases-main">
     <div class="brand-wrapper neo">
         <a href="<?php echo $fmt("neo.url"); ?>" target="_blank" rel="noreferrer" class="brand-logo-link">
             <div class="brand-logo <?php echo $locale ?>"></div>

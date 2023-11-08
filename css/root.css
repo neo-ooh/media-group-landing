@@ -239,6 +239,11 @@ main .moblek .brand-description {
   line-height: 1.5;
 }
 
+.press-releases-main .brand-wrapper.pompe,
+.press-releases-main .brand-wrapper.staff {
+  margin-top: 200px;
+}
+
 @media (max-width: 1280px) {
   main .division-title {
     font-size: 1.25rem;
