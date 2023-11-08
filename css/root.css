@@ -260,6 +260,7 @@ main .moblek .brand-description {
   display: block;
   text-transform: uppercase;
   color: #a4d4ff;
+  z-index: 10;
 }
 
 .brand-pr-item > a:hover {
