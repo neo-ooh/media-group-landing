@@ -235,6 +235,10 @@ main .moblek .brand-description {
   right: calc(50% + 200px);
 }
 
+.press-releases-main {
+  width: auto;
+}
+
 .brand-pr-list {
   text-align: center;
 }
