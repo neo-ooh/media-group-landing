@@ -242,6 +242,7 @@ main .moblek .brand-description {
 
 .brand-pr-list {
   text-align: center;
+  margin-top: -30px;
 }
 
 .brand-pr-item {
@@ -258,7 +259,7 @@ main .moblek .brand-description {
 
 .press-releases-main .brand-wrapper.pompe,
 .press-releases-main .brand-wrapper.staff {
-  margin-top: 70px;
+  margin-top: 50px;
 }
 
 @media (max-width: 1280px) {
