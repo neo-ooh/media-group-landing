@@ -78,6 +78,10 @@ $fmt = new I18n($locale);
         <a href="<?php echo $fmt("neo.url"); ?>" target="_blank" rel="noreferrer" class="brand-logo-link">
             <div class="brand-logo <?php echo $locale ?>"></div>
         </a>
+        <ul class="brand-pr-list">
+            <li class="brand-pr-item">PRESS RELEASE 1</li>
+            <li class="brand-pr-item">PRESS RELEASE 2</li>
+        </ul>
     </div>
     <div class="brand-wrapper pompe">
         <a href="<?php echo $fmt("pompe.url"); ?>" target="_blank" rel="noreferrer" class="brand-logo-link">
