@@ -60,6 +60,19 @@ $fmt = new I18n($locale);
 
     <meta name="theme-color" content="#fafafa">
 </head>
+<body>
+
+<!-- Add your site or application content here -->
+<header>
+    <div class="header-caption">
+        <?php echo $fmt("press-releases.desc"); ?>
+    </div>
+    <a href="press-releases.php?lang=<?php echo $locale === "en" ? "fr" : "en"; ?>"
+       class="language-switcher">
+        <?php echo $locale === "en" ? "FR" : "EN"; ?>
+    </a>
+</header>
+
 <main>
     <div class="brand-wrapper neo">
         <a href="<?php echo $fmt("neo.url"); ?>" target="_blank" rel="noreferrer" class="brand-logo-link">
@@ -87,18 +100,6 @@ $fmt = new I18n($locale);
         </a>
     </div>
 </main>
-<body>
-
-<!-- Add your site or application content here -->
-<header>
-    <div class="header-caption">
-        <?php echo $fmt("press-releases.desc"); ?>
-    </div>
-    <a href="press-releases.php?lang=<?php echo $locale === "en" ? "fr" : "en"; ?>"
-       class="language-switcher">
-        <?php echo $locale === "en" ? "FR" : "EN"; ?>
-    </a>
-</header>
 
 <script src="js/vendor/modernizr-3.11.2.min.js"></script>
 <script src="js/plugins.js"></script>
