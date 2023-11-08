@@ -64,7 +64,7 @@ $fmt = new I18n($locale);
 
 <!-- Add your site or application content here -->
 <header>
-    <div class="header-press-release"><a href=""><?php echo $fmt("media-group.pr"); ?></a></div>
+    <div class="header-press-release"><a href="/press-release"><?php echo $fmt("media-group.pr"); ?></a></div>
     <div class="header-jumbo-logo"
          title="<?php echo $fmt("media-group.title"); ?>"
          style="--logo-url:url('<?php echo $locale === "en" ? "../img/mediagroup-renvers-vide-en.png" : "../img/mediagroupe-renvers-vide-fr.png" ; ?>')"
