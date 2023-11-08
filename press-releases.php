@@ -36,9 +36,9 @@ $fmt = new I18n($locale);
 ?>
 <!doctype html>
 <html class="no-js" lang="en">
-<!-- * 2021 Copyright Neo-OOH Tous droits réservés.
+<!-- * 2023 Copyright Neo-OOH Tous droits réservés.
      *
-     * Written by Valentin Dufois <vdufois@neo-ooh.com> -->
+     * Written by Sébastien Meslage <smeslage@neo-ooh.com> -->
 <head>
     <meta charset="utf-8">
     <title><?php echo $fmt("title"); ?></title>
@@ -60,6 +60,33 @@ $fmt = new I18n($locale);
 
     <meta name="theme-color" content="#fafafa">
 </head>
+<main>
+    <div class="brand-wrapper neo">
+        <a href="<?php echo $fmt("neo.url"); ?>" target="_blank" rel="noreferrer" class="brand-logo-link">
+            <div class="brand-logo <?php echo $locale ?>"></div>
+        </a>
+    </div>
+    <div class="brand-wrapper pompe">
+        <a href="<?php echo $fmt("pompe.url"); ?>" target="_blank" rel="noreferrer" class="brand-logo-link">
+            <div class="brand-logo <?php echo $locale ?>"></div>
+        </a>
+    </div>
+    <div class="brand-wrapper speed">
+        <a href="<?php echo $fmt("speed.url"); ?>" target="_blank" rel="noreferrer" class="brand-logo-link">
+            <div class="brand-logo <?php echo $locale ?>"></div>
+        </a>
+    </div>
+    <div class="brand-wrapper staff">
+        <a href="<?php echo $fmt("staff.url"); ?>" target="_blank" rel="noreferrer" class="brand-logo-link">
+            <div class="brand-logo <?php echo $locale ?>"></div>
+        </a>
+    </div>
+    <div class="brand-wrapper moblek">
+        <a href="<?php echo $fmt("moblek.url"); ?>" target="_blank" rel="noreferrer" class="brand-logo-link">
+            <div class="brand-logo <?php echo $locale ?>"></div>
+        </a>
+    </div>
+</main>
 <body>
 
 <!-- Add your site or application content here -->
