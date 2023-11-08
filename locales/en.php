@@ -4,7 +4,7 @@ return [
     "title" => "",
     "media-group" => [
         "title" => "Media Group",
-        "pr" => "Discover our press releases"
+        "pr" => "Discover our press releases",
         "desc" => "Media Group holds interests in various companies related to the world of communications.<br />
         Our group has complementary resources and expertise that have allowed us to grow rapidly."],
     "sections" => [
