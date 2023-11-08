@@ -13,6 +13,11 @@ body {
   background-color: var(--color-background);
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 header {
   position: relative;
   width: 100vw;
