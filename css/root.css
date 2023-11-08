@@ -311,10 +311,6 @@ main .moblek .brand-description {
     top: 20px;
     right: 20px;
   }
-  main {
-    grid-template-columns: 1fr;
-    grid-template-rows: auto;
-  }
   main .division-title.left {
     grid-column: 1;
     grid-row: 1;
