@@ -81,8 +81,8 @@ $fmt = new I18n($locale);
         <ul class="brand-pr-list">
             <li class="brand-pr-item">
                 <a href="<?php echo $locale === "en" ? "../pdf/Press_release_Sophie_Remillard EN.pdf" : "../pdf/Communique_Sophie_Remillard_FR.pdf"; ?>" download>
-                    <?php echo $locale === "en" ? "SOPHIE RÉMILLARD JOINS NEO AS QUEBEC SALES DIRECTOR" : 
-                    "SOPHIE RÉMILLARD SE JOINT À NEO EN TANT QUE DIRECTRICES DES VENTES AU QUÉBEC"; ?>
+                    <?php echo $locale === "en" ? "SOPHIE RÉMILLARD JOINS NEO" : 
+                    "SOPHIE RÉMILLARD SE JOINT À NEO"; ?>
                 </a>
             </li>
             <li class="brand-pr-item">PRESS RELEASE 2</li>
