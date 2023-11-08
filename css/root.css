@@ -21,7 +21,7 @@ header {
 header .header-jumbo-logo {
   width: 40%;
   padding-top: 10%;
-  margin: 0 auto 10px;
+  margin: 0 auto 0;
   background-color: var(--color-foreground);
   mask-image: var(--logo-url);
   mask-position: center center;
@@ -36,10 +36,12 @@ header .header-caption {
   box-sizing: border-box;
   width: 100%;
   margin: auto;
+  margin-top: 60px;
   padding: 0 40px;
   text-align: center;
   font-weight: 400;
   letter-spacing: 0.05ch;
+  font-size: 1.75rem;
 }
 header .language-switcher {
   position: absolute;
@@ -53,7 +55,7 @@ header .language-switcher {
 
 .header-press-release {
   text-align: center;
-  padding: 30px 0 30px 0;
+  margin: 30px 0 60px 0;
   color: #a4d4ff;
 }
 
