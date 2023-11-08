@@ -64,6 +64,7 @@ $fmt = new I18n($locale);
 
 <!-- Add your site or application content here -->
 <header>
+    <div class="header-press-release"><?php echo $fmt("media-group.pr"); ?></div>
     <div class="header-jumbo-logo"
          title="<?php echo $fmt("media-group.title"); ?>"
          style="--logo-url:url('<?php echo $locale === "en" ? "../img/mediagroup.mono.en.svg" : "../img/mediagroup.mono.fr.png" ; ?>')"
@@ -115,7 +116,7 @@ $fmt = new I18n($locale);
 <!--        <div class="brand-date">2004</div>-->
         <div class="brand-description">
             <a href="<?php echo $fmt("speed.url"); ?>" target="_blank" rel="noreferrer">
-                <h2>speed-xm.comz</h2>
+                <h2>speed-xm.com</h2>
             </a>
             <p>
                 <?php echo $fmt("speed.desc"); ?>
