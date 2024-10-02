@@ -50,111 +50,20 @@ $fmt = new I18n($locale);
     <meta property="og:url" content="">
     <meta property="og:image" content="">
 
-    <!--    <link rel="manifest" href="site.webmanifest">-->
-    <!--    <link rel="apple-touch-icon" href="icon.png">-->
-    <!-- Place favicon.ico in the root directory -->
-
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/root.css">
+    <link rel="stylesheet" href="css/normalize.css?k=00100">
+    <link rel="stylesheet" href="css/main.css?k=00100">
+    <link rel="stylesheet" href="css/root.css?k=00100">
 
     <meta name="theme-color" content="#fafafa">
 </head>
 <body>
-
-<!-- Add your site or application content here -->
-<header>
-    <div class="header-press-release"><a href="press-releases.php?lang=<?php echo $locale === "fr" ? "fr" : "en"; ?>"><?php echo $fmt("media-group.pr"); ?></a></div>
-    <div class="header-jumbo-logo"
-         title="<?php echo $fmt("media-group.title"); ?>"
-         style="--logo-url:url('<?php echo $locale === "en" ? "../img/mediagroup-renvers-vide-en.png" : "../img/mediagroupe-renvers-vide-fr.png" ; ?>')"
-    ></div>
-    <div class="header-caption">
-        <?php echo $fmt("media-group.desc"); ?>
-    </div>
-    <a href="/?lang=<?php echo $locale === "en" ? "fr" : "en"; ?>"
-       class="language-switcher">
-        <?php echo $locale === "en" ? "FR" : "EN"; ?>
-    </a>
-</header>
 <main>
-    <div class="brand-wrapper neo">
-        <a href="<?php echo $fmt("neo.url"); ?>" target="_blank" rel="noreferrer" class="brand-logo-link">
-            <div class="brand-logo <?php echo $locale ?>"></div>
-        </a>
-<!--        <div class="brand-date">2002</div>-->
-        <div class="brand-description">
-            <a href="<?php echo $fmt("neo.url"); ?>" target="_blank" rel="noreferrer">
-                <h2>neo-ooh.com</h2>
-            </a>
-            <p>
-                <?php echo $fmt("neo.desc"); ?>
-            </p>
-        </div>
-    </div>
-    <div class="brand-wrapper pompe">
-        <a href="<?php echo $fmt("pompe.url"); ?>" target="_blank" rel="noreferrer" class="brand-logo-link">
-            <div class="brand-logo <?php echo $locale ?>"></div>
-        </a>
-<!--        <div class="brand-date">2019</div>-->
-        <div class="brand-description pompe">
-            <a href="<?php echo $fmt("pompe.url"); ?>" target="_blank" rel="noreferrer">
-                <h2>pompemedia.ca</h2>
-            </a>
-            <p>
-                <?php echo $fmt("pompe.desc"); ?>
-
-            </p>
-        </div>
-    </div>
-    <div class="brand-wrapper speed">
-        <a href="<?php echo $fmt("speed.url"); ?>" target="_blank" rel="noreferrer" class="brand-logo-link">
-            <div class="brand-logo <?php echo $locale ?>"></div>
-        </a>
-<!--        <div class="brand-date">2004</div>-->
-        <div class="brand-description">
-            <a href="<?php echo $fmt("speed.url"); ?>" target="_blank" rel="noreferrer">
-                <h2>speed-xm.com</h2>
-            </a>
-            <p>
-                <?php echo $fmt("speed.desc"); ?>
-            </p>
-        </div>
-    </div>
-    <div class="brand-wrapper staff">
-        <a href="<?php echo $fmt("staff.url"); ?>" target="_blank" rel="noreferrer" class="brand-logo-link">
-            <div class="brand-logo <?php echo $locale ?>"></div>
-        </a>
-<!--        <div class="brand-date">2019</div>-->
-        <div class="brand-description staff">
-            <a href="<?php echo $fmt("staff.url"); ?>" target="_blank" rel="noreferrer">
-                <h2>staffpersonnel.com</h2>
-            </a>
-            <p>
-                <?php echo $fmt("staff.desc"); ?>
-            </p>
-        </div>
-    </div>
-    <div class="brand-wrapper moblek">
-        <a href="<?php echo $fmt("moblek.url"); ?>" target="_blank" rel="noreferrer" class="brand-logo-link">
-            <div class="brand-logo <?php echo $locale ?>"></div>
-        </a>
-<!--        <div class="brand-date">2019</div>-->
-        <div class="brand-description">
-            <a href="<?php echo $fmt("moblek.url"); ?>" target="_blank" rel="noreferrer">
-                <h2>moblek.com</h2>
-            </a>
-            <p>
-                <?php echo $fmt("moblek.desc"); ?>
-            </p>
-        </div>
-    </div>
+    <h1 class="title">
+            <?php echo $fmt("header-line-1"); ?><br />
+            <?php echo $fmt("header-line-2"); ?>
+    </h1>
+    <img src="img/quebecor-<?php echo $locale; ?>.png" alt="Québecor Média Inc." />
 </main>
-
-
-<script src="js/vendor/modernizr-3.11.2.min.js"></script>
-<script src="js/plugins.js"></script>
-<script src="js/main.js"></script>
 <!-- Google Analytics -->
 <script>
   window.ga = function () { ga.q.push(arguments); };

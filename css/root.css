@@ -6,405 +6,51 @@
 
 html {
   font-family: "Poppins", sans-serif;
-}
-
-* {
-  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
 }
 
 body {
   color: var(--color-foreground);
   background-color: var(--color-background);
-}
-
-a {
-  text-decoration: none;
-  color: inherit;
-}
-
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-header {
-  position: relative;
-  width: 100vw;
-  margin-bottom: 20px;
-}
-header .header-jumbo-logo {
-  width: 40%;
-  padding-top: 10%;
-  margin: 0 auto 0;
-  background-color: var(--color-foreground);
-  mask-image: var(--logo-url);
-  mask-position: center center;
-  mask-size: contain;
-  mask-repeat: no-repeat;
-  -webkit-mask-image: var(--logo-url);
-  -webkit-mask-position: center center;
-  -webkit-mask-size: contain;
-  -webkit-mask-repeat: no-repeat;
-}
-header .header-caption {
-  box-sizing: border-box;
   width: 100%;
-  margin: auto;
-  margin-top: 60px;
-  padding: 0 40px;
-  text-align: center;
-  font-weight: 400;
-  letter-spacing: 0.05ch;
-  font-size: 1.75rem;
-}
-header .language-switcher {
-  position: absolute;
-  top: 10%;
-  right: 20%;
-  color: #FFFFFF;
-  text-decoration: none;
-  font-weight: 600;
-  font-size: 0.889rem;
-}
-
-.header-press-release {
-  text-align: center;
-  margin: 30px 0 60px 0;
-  color: #a4d4ff;
-}
-
-.header-press-release:hover {
-  color: white;
+  height: 100%;
 }
 
 main {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(250px, 1fr));
-  grid-template-rows: 1fr 3fr 3fr;
-  width: 80vw;
-  max-width: 1280px;
-  margin: 0 auto 0;
-}
-main .division-title {
-  grid-row: 1;
-  text-align: center;
-  text-transform: uppercase;
-  font-size: 1.563rem;
-  font-weight: 500;
-}
-main .division-title.left {
-  grid-column: 1;
-  grid-row: 1;
-}
-main .division-title.right {
-  grid-column: 2;
-  grid-row: 1;
-}
-main .brand-wrapper {
-  position: relative;
-}
-main .brand-wrapper .brand-logo-link {
-  display: block;
-  margin: 0 auto;
-  width: 260px;
-  height: 192px;
-}
-main .brand-wrapper .brand-logo-link .brand-logo {
   width: 100%;
   height: 100%;
-  background-color: var(--color-foreground);
-  mask-size: contain;
-  mask-position: center center;
-  mask-repeat: no-repeat;
-  -webkit-mask-size: contain;
-  -webkit-mask-position: center center;
-  -webkit-mask-repeat: no-repeat;
-}
-main .brand-wrapper .brand-date {
-  margin-bottom: 40px;
-  color: var(--color-foreground);
-  padding-top: 20px;
-  text-align: center;
-  font-size: 1.563rem;
-  font-weight: 500;
-  text-decoration: none;
-}
-main .brand-wrapper .brand-description {
-  position: absolute;
-  top: -50px;
-  z-index: 100;
-  display: none;
-  width: 600px;
-  padding: 40px 80px;
-  box-shadow: 0 2px 10px 0 var(--color-foreground);
-  border: 1px solid var(--color-foreground);
-  background-color: var(--color-background);
-}
-
-main .brand-wrapper .brand-description a {
-  color: var(--color-foreground);
-  text-decoration-color: var(--color-foreground) !important;
-}
-main .brand-wrapper .brand-description h2 {
-  margin: 0;
-}
-main .brand-wrapper .brand-description p {
-  margin: 0;
-  font-size: 0.889rem;
-  line-height: 1.8rem;
-  letter-spacing: 0.05ch;
-}
-main .brand-wrapper .brand-logo-link:hover ~ .brand-description,
-main .brand-wrapper .brand-date:hover ~ .brand-description,
-main .brand-wrapper .brand-description:hover {
-  display: block;
-}
-main .neo {
-  grid-row: 2;
-  grid-column: 1;
-}
-main .neo .brand-logo.fr {
-  mask-image: url("../img/Logo_NEO.png");
-  -webkit-mask-image: url("../img/Logo_NEO.png");
-}
-main .neo .brand-logo.en {
-  mask-image: url("../img/Logo_NEO.png");
-  -webkit-mask-image: url("../img/Logo_NEO.png");
-}
-main .neo .brand-description {
-  left: calc(50% + 200px);
-}
-main .pompe {
-  grid-row: 3;
-  grid-column: 1;
-}
-main .pompe .brand-logo {
-  mask-image: url("../img/pompe.mono.svg");
-  -webkit-mask-image: url("../img/pompe.mono.svg");
-}
-main .pompe .brand-description {
-  left: calc(50% + 200px);
-}
-main .speed {
-  grid-row: 2;
-  grid-column: 2;
-}
-main .speed .brand-logo.en {
-  mask-image: url("../img/speed.mono.en.svg");
-  -webkit-mask-image: url("../img/speed.mono.en.svg");
-}
-main .speed .brand-logo.fr {
-  mask-image: url("../img/speed.mono.fr.svg");
-  -webkit-mask-image: url("../img/speed.mono.fr.svg");
-}
-main .speed .brand-description {
-  right: calc(50% + 200px);
-}
-main .staff {
-  grid-row: 3;
-  grid-column: 2;
-}
-main .staff .brand-logo.en {
-  mask-image: url("../img/staff.mono.en.svg");
-  -webkit-mask-image: url("../img/staff.mono.en.svg");
-}
-main .staff .brand-logo.fr {
-  mask-image: url("../img/staff.mono.fr.svg");
-  -webkit-mask-image: url("../img/staff.mono.fr.svg");
-}
-main .staff .brand-description {
-  right: calc(50% + 200px);
-}
-
-main .moblek {
-  grid-row: 2;
-  grid-column: 3;
-}
-main .moblek .brand-logo.en {
-  mask-image: url("../img/Logo_Moblek_Blanc_anglais.png");
-  -webkit-mask-image: url("../img/Logo_Moblek_Blanc_anglais.png");
-}
-main .moblek .brand-logo.fr {
-  mask-image: url("../img/Logo_Moblek_Blanc_fr.png");
-  -webkit-mask-image: url("../img/Logo_Moblek_Blanc_fr.png");
-}
-main .moblek .brand-description {
-  right: calc(50% + 200px);
-}
-
-.press-releases-main {
-  max-width: none;
-  width: auto;
-}
-
-.brand-pr-list {
-  text-align: center;
-  margin-top: -30px;
-}
-
-.brand-pr-item {
   display: flex;
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
-  line-height: 1.5;
 }
-
-.brand-pr-item > a {
-  white-space: nowrap;
-  display: block;
+main h1 {
   text-transform: uppercase;
-  color: #a4d4ff;
-  z-index: 10;
-  font-size: 0.9rem;
+  text-align: center;
+  margin-bottom: 100px;
+  font-size: 2.25rem;
 }
-
-.brand-pr-item > a:hover {
-  color: white;
-}
-
-.press-releases-main .brand-wrapper.pompe,
-.press-releases-main .brand-wrapper.staff {
-  margin-top: 50px;
-}
-
-.press-releases-main .brand-wrapper.pompe .brand-pr-list,
-.press-releases-main .brand-wrapper.staff .brand-pr-list {
-  margin-top: 0;
-}
-
-@media (max-width: 1800px) {
-  .press-releases-main {
-    grid-template-columns: 1fr;
-    grid-template-rows: auto;
-  }
-  .press-releases-main .division-title.left {
-    grid-column: 1;
-    grid-row: 1;
-  }
-  .press-releases-main .division-title.right {
-    grid-column: 1;
-    grid-row: 4;
-  }
-  .press-releases-main .brand-wrapper {
-    grid-column: 1;
-  }
-  .press-releases-main .brand-wrapper.neo {
-    grid-row: 2;
-  }
-  .press-releases-main .brand-wrapper.pompe {
-    grid-row: 3;
-  }
-  .press-releases-main .brand-wrapper.speed {
-    grid-row: 5;
-  }
-  .press-releases-main .brand-wrapper.staff {
-    grid-row: 6;
-  }
-.press-releases-main .brand-wrapper.moblek {
-    grid-row: 7;
-  }
+main img {
+  max-width: 100%;
 }
 
 @media (max-width: 1280px) {
-  main .division-title {
-    font-size: 1.25rem;
-  }
-  main .neo .brand-description {
-    left: 20%;
-    top: 60%;
-  }
-  main .pompe .brand-description {
-    left: 20%;
-    top: -40%;
-  }
-  main .speed .brand-description {
-    right: 20%;
-    top: 60%;
-  }
-  main .staff .brand-description {
-    right: 20%;
-    top: -40%;
+  main h1 {
+    font-size: 2rem;
+    margin-bottom: 80px;
   }
 }
 @media (max-width: 1024px) {
-  header .language-switcher {
-    top: 20px;
-    right: 20px;
-  }
-  main .neo .brand-description {
-    width: 80%;
-    left: 0;
-    top: 60%;
-  }
-  main .pompe .brand-description {
-    width: 80%;
-    left: 0;
-    top: 60%;
-  }
-  main .speed .brand-description {
-    width: 80%;
-    left: 0;
-    top: -80%;
-    right: unset;
-  }
-  main .staff .brand-description {
-    width: 80%;
-    left: 0;
-    top: -80%;
-    right: unset;
-  }
-  main {
-    grid-template-columns: 1fr;
-    grid-template-rows: auto;
-  }
-  main .division-title.left {
-    grid-column: 1;
-    grid-row: 1;
-  }
-  main .division-title.right {
-    grid-column: 1;
-    grid-row: 4;
-  }
-  main .brand-wrapper {
-    grid-column: 1;
-  }
-  main .brand-wrapper.neo {
-    grid-row: 2;
-  }
-  main .brand-wrapper.pompe {
-    grid-row: 3;
-  }
-  main .brand-wrapper.speed {
-    grid-row: 5;
-  }
-  main .brand-wrapper.staff {
-    grid-row: 6;
-  }
-  main .brand-wrapper.moblek {
-    grid-row: 7;
+  main h1 {
+    font-size: 1.79rem;
+    margin-bottom: 50px;
   }
 }
 @media (max-width: 768px) {
-  header .header-jumbo-logo {
-    width: 320px;
-    height: 80px;
-  }
-  main {
-    width: 100%;
-  }
-  main .brand-wrapper .brand-description {
-    position: relative;
-    display: block;
-    width: 100%;
-    box-sizing: border-box;
-    top: unset;
-    left: unset;
-    right: unset;
-    bottom: unset;
-    padding: 0 40px;
-    border: none;
-    box-shadow: none;
-    margin: -20px 0 40px 0;
+  main h1 {
+    font-size: 1.25rem;
+    margin-bottom: 50px;
   }
 }
 
